@@ -1,11 +1,16 @@
 # btrdemo
 
 - 开发环境： 使用Android Studio，支持Android 4.0及以上版本。
-- 配置环境：1、SDK包中libs下提供的btrsdk.aar包拷贝到app/libs目录下，然后在app的build.gradle下按下图所示方式添加：
+- 配置环境：
+
+ 1、在AndroidManifest.xml文件下添加权限: 
+<uses-permission android:name="android.permission.INTERNET"/>
+
+ 2、SDK包中libs下提供的btrsdk.aar包拷贝到app/libs目录下，然后在app的build.gradle下按下图所示方式添加：
+
 ![image](https://note.youdao.com/yws/api/personal/file/B400E5AC623A43599D01C8D26667BB0B?method=download&shareKey=c5dc3096897d5a1fb0bd1a45a2fcb867)
 
-    2、在AndroidManifest.xml文件下添加权限。
-<uses-permission android:name="android.permission.INTERNET"/>
+    
 
 - 集成SDK，BTRSdkApi关键类的API
 
