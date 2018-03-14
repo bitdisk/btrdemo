@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_import"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="导入账号"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_trusted_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="切换到已信任的账户"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_get_sys_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="系统币余额"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_get_btr_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="比特米余额"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_transfer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="转账"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_tx_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="比特米交易明细"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_transfer_fee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="转账手续费"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_connect_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="连接状态"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
